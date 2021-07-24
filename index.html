@@ -32,8 +32,10 @@
     </header>
     <main>
         <section class="hero">
-            <h1 class="hero-title">Эффективные решения <br /> для вашего бизнеса</h1>
-            <button type="button" class="button primary">Заказать услугу</button>
+            <div class="container">
+                <h1 class="hero-title">Эффективные решения <br /> для вашего бизнеса</h1>
+                <button type="button" class="button primary">Заказать услугу</button>
+            </div>
         </section>
         <section class="section">
             <div class="container">
@@ -58,7 +60,7 @@
                 </ul>
             </div>
         </section>
-        <section class="section no-padding">
+        <section class="section no-top-padding">
             <div class="container">
                 <h2 class="section-title">Чем мы занимаемся</h2>
                 <ul class="activities list">
@@ -80,23 +82,31 @@
                 <ul class="member list">
                     <li class="team-item">
                         <img class="image" src="./images/img1.jpg" alt="Портретное фото Игоря Демьяненко" width="270">
-                        <h3 class="image-title">Игорь Демьяненко</h3>
-                        <p class="position">Product Designer</p>
+                        <div class="team-item-wrapper">
+                            <h3 class="image-title">Игорь Демьяненко</h3>
+                            <p class="position">Product Designer</p>
+                        </div>
                     </li>
                     <li class="team-item">
                         <img class="image" src="./images/img2.jpg" alt="Портретное фото Ольги Репиной" width="270">
-                        <h3 class="image-title">Ольга Репина</h3>
-                        <p class="position">Frontend Developer</p>
+                        <div class="team-item-wrapper">
+                            <h3 class="image-title">Ольга Репина</h3>
+                            <p class="position">Frontend Developer</p>
+                        </div>
                     </li>
                     <li class="team-item">
                         <img class="image" src="./images/img3.jpg" alt="Портретное фото Николая Тарасова" width="270">
-                        <h3 class="image-title">Николай Тарасов</h3>
-                        <p class="position">Marketing</p>
+                        <div class="team-item-wrapper">
+                            <h3 class="image-title">Николай Тарасов</h3>
+                            <p class="position">Marketing</p>
+                        </div>
                     </li>
                     <li class="team-item">
                         <img class="image" src="./images/img4.jpg" alt="Портретное фото Михаила Ермакова" width="270">
-                        <h3 class="image-title">Михаил Ермаков</h3>
-                        <p class="position">UI Designer</p>
+                        <div class="team-item-wrapper">
+                            <h3 class="image-title">Михаил Ермаков</h3>
+                            <p class="position">UI Designer</p>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -105,16 +115,16 @@
     <!-- Футер -->
     <footer class="footer">
         <div class="container">
-            <a href="./index.html" class="logo">Web<span class="logo-accent-second">Studio</span></a>
+            <a href="./index.html" class="logo ">Web<span class="logo-accent-second">Studio</span></a>
             <address class="address">
                 <ul class="contact list">
-                    <li>
+                    <li class="address-item">
                         <a href="https://goo.gl/maps/k8MuzYko4Lj5mASt6" class="footer-link"> <span class="address">г. Киев, пр-т Леси Украинки, 26</span></a>
                     </li>
-                    <li>
+                    <li class="address-item">
                         <a href="mailto:info@example.com" class="footer-link">info@example.com</a>
                     </li>
-                    <li>
+                    <li class="address-item">
                         <a href="tel:+380991111111" class="footer-link">+38 099 111 11 11</a>
                     </li>
                 </ul>            
